@@ -1,0 +1,49 @@
+apscheduler==3.6.0
+asn1crypto==0.24.0
+bcrypt==3.1.6
+certifi==2019.3.9
+cffi==1.12.2
+chardet==3.0.4
+cryptography==2.6.1
+dj-database-url==0.5.0
+Django==2.2
+django-colorfield==0.1.15
+django-extensions==2.1.6
+django-glrm==1.1.3
+django-heroku==0.3.1
+django-modeladmin-reorder==0.3.1
+djangorestframework==3.9.2
+elasticsearch==6.3.1
+gunicorn==19.9.0
+idna==2.8
+mysql-connector-python==8.0.13
+mysqlclient==1.3.13
+numpy==1.16.2
+pandas==0.24.2
+pandasticsearch==0.5.1
+paramiko==2.4.2
+protobuf==3.7.1
+psycopg2==2.8.1
+pyasn1==0.4.5
+pycparser==2.19
+pymongo==3.7.2
+pynacl==1.3.0
+pysftp==0.2.9
+python-dateutil==2.8.0
+pytz==2018.9
+requests==2.21.0
+six==1.12.0
+sqlalchemy==1.3.2
+sqlparse==0.3.0
+tzlocal==2.0.0b1
+-e git+http://192.168.0.203/uihlab/uih-line-notifyservice.git@1bf6fc344299dde45fead460b9846fa77e75eed5#egg=uihlab_linenotify
+-e git+http://192.168.0.203/uihlab/uih-log-collector-alertalerm.git@1125450c3fda32b7dc6b0996fbfd3307d8d5c850#egg=uihlab_uihlogcollectoralert
+-e git+http://192.168.0.203/uihlab/uih-log-collector-dataanalytic.git@4d0fe13cfe0fe9bae521b15bc1295dda90ae421a#egg=uihlab_uihlogcollectoranalytic
+-e git+http://192.168.0.203/uihlab/uih-log-collector-keepalive.git@0b9a26b1ea4d2b040b4819e59244ba7093ffde91#egg=uihlab_uihlogcollectorkeepalive
+-e git+http://192.168.0.203/uihlab/uih-log-collector-restserver.git@5fe6b687f3b59782f8da158a20d813a1538391b3#egg=uihlab_uihlogcollectorrestserver
+-e git+http://192.168.0.203/uihlab/uih-log-collector-sftpclient.git@1eebc09cfed5ed0d508ab08cf09bc1829cfcc302#egg=uihlab_uihlogcollectorsftpclient
+-e git+http://192.168.0.203/uihlab/uih-log-collector-dashboard.git@73e71b0dcbade88c3147f3973223e025e47bc3e6#egg=uihlab_uihlogdashboard
+-e git+http://192.168.0.203/uihlab/uih-log-collector-main-template.git@86281f0da71b0f00fb4c647f7ce1b5356a168331#egg=uihlab_uihlogmaintemplate
+-e git+http://192.168.0.203/uihlab/uih-log-collector-models.git@bb192c4993969e2af6bceb5d84f3b98bda2c57c8#egg=uihlab_uihlogmodels
+urllib3==1.24.1
+whitenoise==4.1.2
