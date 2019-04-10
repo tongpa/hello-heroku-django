@@ -77,8 +77,10 @@ WSGI_APPLICATION = 'hello_project.wsgi.application'
 
 DATABASES = {
     'default': {
+
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'datasample'),
     }
 }
 
@@ -122,3 +124,15 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 django_heroku.settings(locals())
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# Host for sending e-mail.
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'tongmakchu@gmail.com'
+EMAIL_HOST_PASSWORD = 'padungrat@245'
+#enable
+#https://myaccount.google.com/lesssecureapps
