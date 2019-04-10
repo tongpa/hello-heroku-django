@@ -77,10 +77,16 @@ WSGI_APPLICATION = 'hello_project.wsgi.application'
 
 DATABASES = {
     'default': {
-
-        'ENGINE': 'django.db.backends.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'NAME': os.path.join(BASE_DIR, 'datasample'),
+        #'NAME': os.path.join(BASE_DIR, 'datasample'),
+
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd538ju22sleb74',
+        'USER': 'hjtioxqfdrpxfv',
+        'PASSWORD': '57fa38ea310ceef164b222773ad0599dc0ab9e26676617f01c4a9966d6e8f459',
+        'HOST': 'ec2-23-23-173-30.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
